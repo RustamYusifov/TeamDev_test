@@ -2,7 +2,7 @@ package task;
 
 import java.util.LinkedList;
 
-public class Ñalculator {
+public class Calculator {
 
 static boolean isDelim(char c) { 
   return c == ' ';
