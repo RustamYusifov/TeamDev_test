@@ -43,7 +43,7 @@ public class SimpleGUI extends JFrame {
 			try{
 			if(e.getSource()==button){
 				someString =input.getText();
-					b=Ñalculator.eval(someString);
+					b=Calculator.eval(someString);
 			answer=("You'r answer is=" +b);
 			output.setText(answer);
 							}
